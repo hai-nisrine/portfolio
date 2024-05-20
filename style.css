@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    background-color:white;
+}
+body {
+    font-family: "Libre Baskerville", sans-serif;
+    letter-spacing: 1px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+p {
+    color: black;
+}
+
+
+
+
+
+nav,
+.nav-links {
+    display: flex;
+}
+
+nav {
+    background-color: white;
+    justify-content: space-around;
+    align-items: center;
+    height: 8vh;
+}
+
+.nav-links {
+    gap: 10rem;
+    list-style: none;
+    font-weight: bold;
+    font-size: 0.9rem;
+    background-color: white;
+}
+
+
+  
+
+  a {
+    background-color: white;
+    display: block;
+    color: black;
+    text-decoration: none;    
+}
+
+a:hover {
+    color: rgb(172, 135, 197);
+    text-decoration: underline;
+    text-underline-offset: 0.1rem;
+  
+}
+
+
+
+.image-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.image-row img {
+    margin: 0 10px;
+}
+
+p {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 150px;
+}
+
+#grad1 {
+    height: 200px;
+    background: linear-gradient(white, rgb(249, 238, 238));
+}
+#grad{
+    height: 200px;
+    background: linear-gradient(rgb(249, 238, 238), white);
+}
+
+#about {
+    background-color: rgb(249, 238, 238);
+    min-height: 100vh;
+    text-align: center;
+}
+
+h1, p {
+    background-color: transparent;
+    margin-left: 300px;
+    margin-right: 300px;    
+}
+
+#strengths {
+    background-color: rgb(249, 238, 238);
+    min-height: 100vh;
+    text-align: center;
+}
+
+h1, ul {
+    list-style: none;
+    background-color: transparent;
+    margin-left: 300px;
+    margin-right: 300px;   
+}
+
+li {
+    background-color: transparent;
+}
+#contact {
+    background-color: white;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.contact-info-container{
+    background-color: transparent;
+}
